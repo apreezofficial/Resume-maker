@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mad AI Resume Builder</title>
+  <title>AI Resume Builder -test for zocia ability</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/framer-motion/dist/framer-motion.umd.js"></script>
   <style>
@@ -33,9 +33,10 @@
     }
   </style>
 </head>
-
 <body class="bg-blue-50 min-h-screen flex flex-col items-center justify-center text-gray-800 p-6">
-  <div class="max-w-3xl w-full bg-white p-6 rounded-2xl shadow-xl relative">
+ 
+  
+<?php echo'<div class="max-w-3xl w-full bg-white p-6 rounded-2xl shadow-xl relative">
     <h1 class="text-3xl font-bold mb-4 text-blue-600">Mad AI Resume Builder</h1>
     <form id="resumeForm" class="space-y-4">
       <!-- Step-by-step input -->
@@ -90,7 +91,7 @@
       </div>
     </div>
   </div>
-
+';?>
   <script>
   // Replace with your actual Google API key and Custom Search Engine ID
 const GOOGLE_API_KEY = '**'; // Replace with actual Google API key
